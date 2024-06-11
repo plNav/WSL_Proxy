@@ -11,12 +11,14 @@ This project is an Express.js application designed to redirect HTTP requests fro
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/plNav/WSL_Proxy.git
+    ```
+    ```
+    cd WSL_Proxy
     ```
 
 2. Install dependencies:
-    ```sh
+    ```node
     npm install
     ```
 
@@ -26,6 +28,11 @@ Update the `BASE_URL` constant in `index.js` with the base URL of your WSL subsy
 ```javascript
 const BASE_URL = 'http://<wsl-ip-address>:<port>';
 ```
+Update the `REDIRECT_URL` to capture all the endpoints from origin;
+```javascript
+const REDIRECT_path = 'your-project-api-base-path'
+```
+* REDIRECT_URL not needed if you like to redirect all the request.
 
 ## Usage
 Start the server:
