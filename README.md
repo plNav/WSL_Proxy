@@ -28,9 +28,9 @@ Update the `BASE_URL` constant in `index.js` with the base URL of your WSL subsy
 ```javascript
 const BASE_URL = 'http://<wsl-ip-address>:<port>';
 ```
-Update the `REDIRECT_URL` to capture all the endpoints from origin;
+Update the `REDIRECT_PATH` to capture all the endpoints from origin;
 ```javascript
-const REDIRECT_path = 'your-project-api-base-path'
+const REDIRECT_PATH = 'your-project-api-base-path'
 ```
 * REDIRECT_URL not needed if you like to redirect all the request.
 
