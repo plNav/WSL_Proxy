@@ -55,6 +55,8 @@ The following endpoints are available for redirecting requests:
 - PUT /${REDIRECT_PATH}/*
 - DELETE /${REDIRECT_PATH}/*
 
+* If no `REDIRECT_PATH` needed just use `GET /*` `POST /*` `PUT /*` `DELETE/*`
+
 ### Example
 For example, if you send a GET request to <br>
 `http://localhost:8080/REDIRECT_PATH/some-endpoint`,<br>
