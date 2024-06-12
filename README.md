@@ -32,7 +32,7 @@ Update the `REDIRECT_PATH` to capture all the endpoints from origin;
 ```javascript
 const REDIRECT_PATH = 'your-project-api-base-path'
 ```
-* REDIRECT_URL not needed if you like to redirect all the request.
+* REDIRECT_PATH not needed if you like to redirect all the request.
 
 ## Usage
 Start the server:
