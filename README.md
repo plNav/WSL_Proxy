@@ -2,7 +2,7 @@
 
 This project is an Express.js application designed to redirect HTTP requests from the host to a specified WSL (Windows Subsystem for Linux) subsystem. It handles GET, POST, PUT, and DELETE requests and redirects them using Axios to the target WSL subsystem.
 
-## Prerequisites
+## Prerequisites 
 
 - Node.js and npm installed
 - Another Server reachable from localhost, WSL in this case.
